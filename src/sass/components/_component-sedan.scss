@@ -1,0 +1,19 @@
+.container {
+  &__sedan {
+    background-color: $Bright-orange;
+    color: $Very-light-gray;
+    height: 500px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    &--image {
+      margin: 50px;
+    }
+  }
+}
+
+.sedan {
+  color: $Bright-orange;
+}
+.sedan-desc {
+  width: 200px;
+}

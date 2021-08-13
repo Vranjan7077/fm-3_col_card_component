@@ -1,0 +1,30 @@
+.details {
+  margin: 50px;
+  &--title {
+    color: $Very-light-gray;
+    font-family: $font-family-bigShoulderDisplay;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  &--description {
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: $font-family-lexendDeca;
+    color: $Transparent-white;
+    line-height: 1.55;
+  }
+  &--learnMore {
+    background-color: $Very-light-gray;
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.container {
+  &__luxury {
+    background-color: $Very-dark-cyan;
+    color: $Very-light-gray;
+    height: 500px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    &--image {
+      margin: 50px;
+    }
+  }
+}
+
+.luxury {
+  color: $Very-dark-cyan;
+}
+.luxury-desc {
+  width: 210px;
+}

@@ -1,0 +1,17 @@
+.container {
+  &__suv {
+    background-color: $Dark-cyan;
+    color: $Very-light-gray;
+    height: 500px;
+    &--image {
+      margin: 50px;
+    }
+  }
+}
+
+.suv {
+  color: $Dark-cyan;
+}
+.suv-desc {
+  width: 210px;
+}
